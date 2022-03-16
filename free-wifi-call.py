@@ -35,7 +35,7 @@ Se instalarán los siguientes paquetes adicionales:
   git-man liberror-perl
 Paquetes sugeridos:""")
         time.sleep(3)       
-         print(""" git-daemon-run | git-daemon-sysvinit git-doc git-el git-email git-gui gitk
+        print(""" git-daemon-run | git-daemon-sysvinit git-doc git-el git-email git-gui gitk
   gitweb git-cvs git-mediawiki git-svn
 Se instalarán los siguientes paquetes NUEVOS:
   git git-man liberror-perl
